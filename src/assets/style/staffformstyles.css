@@ -1,0 +1,42 @@
+/* staffformstyles.css */
+
+.staff-page-container {
+    width: calc(100vw - 72px); /* Subtract the width of the navbar (assuming 72px) */
+    max-width: calc(100vw - 72px);
+    /*margin-left: 72px; !* Adjust to the navbar width *!*/
+    padding: 20px;
+}
+
+/* Modal Styling */
+#btn-add {
+    transition: all 0.3s ease;
+}
+
+#btn-add:hover {
+    background-color: #3b8c3b; /* Darker green for hover effect */
+}
+
+/* You can also add any other custom styles related to modals or form layout */
+/* staffformstyles.css */
+
+.staff-page-container {
+    width: calc(100vw - 72px); /* Subtract the width of the navbar (assuming 72px) */
+    /*max-width: calc(100vw - 72px);!* Adjust to the navbar width *!*/
+    padding: 20px;
+    margin-top: 0; /* Remove top margin */
+}
+
+/* Modal Styling */
+#btn-add {
+    transition: all 0.3s ease;
+}
+
+#btn-add:hover {
+    background-color: #3b8c3b; /* Darker green for hover effect */
+}
+
+/* Remove unnecessary margins or paddings */
+.container {
+    margin-top: 0 !important;
+    padding-top: 0 !important;
+}
