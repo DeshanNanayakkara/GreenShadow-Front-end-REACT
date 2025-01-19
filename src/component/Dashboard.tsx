@@ -3,17 +3,6 @@ import React from 'react';
 function Dashboard() {
     return (
         <div className="flex">
-            {/* Sidebar */}
-            {/*<div className="w-64 bg-gray-800 text-white p-4">*/}
-            {/*    <h2 className="text-xl font-bold">Dashboard</h2>*/}
-            {/*    <ul className="mt-4 space-y-2">*/}
-            {/*        <li>Home</li>*/}
-            {/*        <li>Settings</li>*/}
-            {/*        <li>Users</li>*/}
-            {/*        <li>Reports</li>*/}
-            {/*    </ul>*/}
-            {/*</div>*/}
-
             {/* Main Content Area */}
             <div className="flex-1">
                 {/* Header */}
@@ -34,7 +23,7 @@ function Dashboard() {
                     {/* Right Section */}
                     <div className="flex items-center space-x-4 pr-4 group cursor-pointer">
                         <img
-                            src="https://via.placeholder.com/150"
+                            src="/api/placeholder/150/150"
                             alt="Profile"
                             className="w-10 h-10 rounded-full duration-150 group-hover:border-2 group-hover:border-green-500"
                         />
@@ -53,17 +42,17 @@ function Dashboard() {
                 <div className="p-4 mt-16">
                     <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
                         {/* Stats Cards */}
-                        <div className="bg-white p-4 rounded-lg shadow-md">
-                            <h3 className="text-sm text-gray-600">Total Users</h3>
-                            <p className="text-2xl font-semibold text-green-500">1500</p>
+                        <div className="bg-blue-500 p-4 rounded-lg shadow-md">
+                            <h3 className="text-sm text-white">Total Users</h3>
+                            <p className="text-2xl font-semibold text-white">1500</p>
                         </div>
-                        <div className="bg-white p-4 rounded-lg shadow-md">
-                            <h3 className="text-sm text-gray-600">Active Sessions</h3>
-                            <p className="text-2xl font-semibold text-green-500">120</p>
+                        <div className="bg-purple-500 p-4 rounded-lg shadow-md">
+                            <h3 className="text-sm text-white">Active Sessions</h3>
+                            <p className="text-2xl font-semibold text-white">120</p>
                         </div>
-                        <div className="bg-white p-4 rounded-lg shadow-md">
-                            <h3 className="text-sm text-gray-600">Pending Tasks</h3>
-                            <p className="text-2xl font-semibold text-green-500">35</p>
+                        <div className="bg-red-500 p-4 rounded-lg shadow-md">
+                            <h3 className="text-sm text-white">Pending Tasks</h3>
+                            <p className="text-2xl font-semibold text-white">35</p>
                         </div>
                     </div>
 
